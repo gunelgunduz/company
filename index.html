@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnionCorp Finance & Consultation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-brand{
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 27px;
+        }
+        span{
+             color: #4f86f9;
+        }
+        .hero-section {
+            background: url('/media/bg_1.jpg.webp') no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-bottom: 20px;
+        }
+        .btn.btn-white {
+         background: #fff !important;
+            border: 1px solid #fff !important;
+          color: #4f86f9 !important;
+          font-size: 24px;
+}
+        .nav-item > .nav-link.active{
+            color: #4f86f9;
+           }
+        .features-section {
+            padding: 50px 0;
+        }
+
+        .features-section .feature-box {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .features-section .feature-box:hover {
+            background-color: #4f86f9;
+            color: white;
+        }
+
+        .features-section .feature-box i {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            transition: color 0.3s ease;
+        }
+
+        .features-section .feature-box:hover i {
+            color: white;
+        }
+
+        .features-section .feature-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .features-section .feature-box p {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        .features-section .feature-box.bg-primary:hover {
+            background-color: #0d6efd;
+            color: white;
+        }
+
+        .features-section .summary-box {
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        .summary-box h2 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .summary-box p {
+            font-size: 1rem;
+            color: #6c757d;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">UNION<span>CORP.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <h1>We're Always Here To Give Financial Help!</h1>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <a href="#" class="btn btn-white p-4 py-3">Get Started</a>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="feature-box">
+                                <i class="bi bi-people"></i>
+                                <h3>Professional Consultants</h3>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="feature-box bg-primary text-white">
+                                <i class="bi bi-bar-chart"></i>
+                                <h3>Comprehensive Services</h3>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="feature-box">
+                                <i class="bi bi-briefcase"></i>
+                                <h3>Industry Experience</h3>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="feature-box">
+                                <i class="bi bi-badge"></i>
+                                <h3>A Culture that Delivers</h3>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="summary-box">
+                        <h2>More than 40M+ Trusted Our Financial & Consultation Institution</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                        <a href="#" class="btn btn-primary btn-lg mt-3">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
